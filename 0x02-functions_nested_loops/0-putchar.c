@@ -1,16 +1,17 @@
 #include "main.h"
-/*
- * main: print_putchar
+
+/**
+ * main - prints _putchar
  *
- * description: print_putchar
+ * Description: prints _putchar
  *
- * return (0) success
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
 	char text[9] = "_putchar";
-	int i;
+	int i = 0;
 
 	for (i = 0; i < 8; i++)
 	{
@@ -18,5 +19,5 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return (0); 
-}	
+	return (0);
+}
